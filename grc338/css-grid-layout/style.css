@@ -1,0 +1,119 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
+
+body {
+    background-color: rgb(195, 193, 191);
+}
+h1 {
+    font-size: 2rem;
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+    padding: 2rem 1.5rem 1rem;
+    color: rgb(255, 253, 250);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    padding: 0rem 1.5rem 1.5rem;
+    color: rgb(255, 253, 250);
+    opacity: 0.7;
+}
+
+header {
+    background-color: rgb(255, 128, 17);
+    max-width: 60em;
+    margin: auto;
+}
+
+h3 {
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    font-size: 1.2rem;
+    color: rgb(255, 128, 17);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05rem;
+}
+
+p {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    color: rgb(255, 253, 250);
+}
+
+
+
+figcaption {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic; 
+    margin: 1rem 1.5rem 2rem;  
+}
+
+figure {
+    max-width: 60em;
+    margin: auto;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 75% auto;
+    background-color: rgb(255, 253, 250);
+}
+
+
+main {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    background-color: rgb(255, 253, 250);
+    
+
+    max-width: 60em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% auto;
+    
+}
+
+.ingredients {
+    margin: 0rem 3rem 3rem;
+    padding-top: 1rem;
+    list-style: circle;
+    border-top: 3px solid rgb(255, 128, 17);
+
+
+}
+
+.directions {
+    margin: 0rem 3rem 3rem;
+    padding-top: 1rem;
+    list-style: georgian;
+    border-top: 3px solid rgb(255, 128, 17);
+   
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: rgb(255, 128, 17);
+
+    max-width: 60em;
+    margin: auto;
+}
